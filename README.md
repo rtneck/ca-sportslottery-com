@@ -1,2 +1,32 @@
-# ca-sportslottery-com
-中国体育彩票 - https://ca-sportslottery.com
+# 中国体育彩票 - ca-sportslottery.com
+
+欢迎访问 **中国体育彩票** 官方网站 [ca-sportslottery.com](https://ca-sportslottery.com)。本平台致力于为彩民提供安全、便捷、透明的体育彩票服务，支持多种体育赛事竞猜与公益彩票购买。
+
+## 简介
+
+中国体育彩票是经国家批准发行的合法彩票，旨在筹集公益金支持体育事业和社会福利。通过 [ca-sportslottery.com](https://ca-sportslottery.com)，您可以了解最新开奖信息、赛事动态以及相关规则。网站严格遵守国家法律法规，确保每一笔交易真实可查。
+
+## 主要特点
+
+- **官方认证**：作为中国体育彩票的线上入口，[ca-sportslottery.com](https://ca-sportslottery.com) 由正规机构运营，保障用户权益。
+- **丰富玩法**：涵盖足球、篮球、网球等主流体育项目的竞猜选项，满足不同彩民需求。
+- **实时更新**：开奖结果与赛事数据同步更新，帮助您及时掌握信息。
+- **安全支付**：采用加密技术保护交易，支持多种合规支付方式。
+
+## 访问方式
+
+您可以通过以下链接直接访问：
+
+- 官方网站：[https://ca-sportslottery.com](https://ca-sportslottery.com)
+
+建议使用最新版本的浏览器访问，以获得最佳体验。请认准唯一官方域名，避免误入仿冒网站。
+
+## 注意事项
+
+- 中国体育彩票倡导理性购彩，请根据个人经济能力合理参与。
+- 未满18周岁不得购买彩票或兑奖。
+- 如遇任何问题，可通过网站提供的客服渠道咨询。
+
+---
+
+感谢您访问 [ca-sportslottery.com](https://ca-sportslottery.com)，祝您购彩愉快！

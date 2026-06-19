@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>中国体育彩票 · 简明指南与常见说明</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+    }
+
+    body {
+      background: #f2f4f6;
+      color: #2d3a40;
+      line-height: 1.6;
+      padding: 24px 16px;
+    }
+
+    .page {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* 顶部导航 */
+    .top-nav {
+      background: #ffffff;
+      border-radius: 18px;
+      box-shadow: 0 4px 12px rgba(0, 20, 30, 0.04);
+      padding: 16px 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 16px;
+      border: 1px solid #e8edf0;
+      margin-bottom: 40px;
+    }
+
+    .nav-brand {
+      font-weight: 600;
+      font-size: 1.2rem;
+      letter-spacing: 0.02em;
+      color: #1f3a47;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+      font-size: 0.95rem;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #3d565f;
+      padding: 4px 0;
+      border-bottom: 2px solid transparent;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    .nav-links a:hover {
+      border-bottom-color: #a5b9c2;
+      color: #1f3a47;
+    }
+
+    /* 通用卡片 */
+    .card {
+      background: #ffffff;
+      border-radius: 20px;
+      border: 1px solid #e2e9ee;
+      box-shadow: 0 6px 14px rgba(0, 20, 30, 0.04);
+      padding: 28px 30px;
+      margin-bottom: 28px;
+      transition: box-shadow 0.2s;
+    }
+
+    .card:hover {
+      box-shadow: 0 8px 20px rgba(0, 20, 30, 0.06);
+    }
+
+    /* hero 区 */
+    .hero {
+      background: #ffffff;
+      border-radius: 24px;
+      padding: 42px 32px 38px;
+      margin-bottom: 32px;
+      border: 1px solid #e2e9ee;
+      box-shadow: 0 6px 16px rgba(0, 30, 40, 0.03);
+    }
+
+    .hero h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #18323e;
+      letter-spacing: -0.01em;
+      margin-bottom: 14px;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      color: #3d565f;
+      max-width: 800px;
+    }
+
+    .hero .guide-tag {
+      display: inline-block;
+      margin-top: 18px;
+      background: #eef3f6;
+      padding: 6px 16px;
+      border-radius: 40px;
+      font-size: 0.85rem;
+      color: #2d5b6b;
+      border: 1px solid #d5e0e6;
+    }
+
+    /* 三个场景模块 */
+    .scenes-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 24px;
+      margin-bottom: 32px;
+    }
+
+    .scene-card {
+      background: #ffffff;
+      border-radius: 20px;
+      border: 1px solid #e2e9ee;
+      box-shadow: 0 6px 12px rgba(0, 20, 30, 0.03);
+      padding: 26px 24px;
+    }
+
+    .scene-card h3 {
+      font-size: 1.2rem;
+      font-weight: 550;
+      color: #1f3a47;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .scene-card p {
+      color: #3d565f;
+      font-size: 0.98rem;
+    }
+
+    .scene-icon {
+      display: inline-block;
+      width: 28px;
+      height: 28px;
+      background: #e4ebf0;
+      border-radius: 40%;
+      text-align: center;
+      line-height: 28px;
+      font-size: 1.1rem;
+    }
+
+    /* 常见说明 */
+    .faq-item {
+      padding: 16px 0;
+      border-bottom: 1px solid #edf2f5;
+    }
+
+    .faq-item:last-child {
+      border-bottom: none;
+    }
+
+    .faq-question {
+      font-weight: 500;
+      color: #1f3a47;
+      margin-bottom: 6px;
+    }
+
+    .faq-answer {
+      color: #4a636e;
+      font-size: 0.95rem;
+    }
+
+    /* 链接样式 */
+    a {
+      color: #1f6994;
+      text-decoration: none;
+      border-bottom: 1px dotted #b3cbd9;
+      transition: color 0.15s, border-color 0.15s;
+    }
+
+    a:hover {
+      color: #0a3d5a;
+      border-bottom-color: #1f6994;
+    }
+
+    /* 底部 */
+    .footer-note {
+      margin-top: 40px;
+      padding: 18px 0 10px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #6a828d;
+      border-top: 1px solid #dce4e9;
+    }
+
+    /* 响应式 */
+    @media (max-width: 640px) {
+      body {
+        padding: 16px 12px;
+      }
+
+      .top-nav {
+        padding: 14px 18px;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .hero h1 {
+        font-size: 1.6rem;
+      }
+
+      .card {
+        padding: 22px 18px;
+      }
+
+      .scene-card {
+        padding: 22px 18px;
+      }
+    }
+
+    @media (min-width: 900px) {
+      .hero {
+        padding: 56px 44px 48px;
+      }
+
+      .hero h1 {
+        font-size: 2.3rem;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- 顶部导航 -->
+  <nav class="top-nav">
+    <div class="nav-brand">简明指南</div>
+    <div class="nav-links">
+      <a href="#intro">介绍</a>
+      <a href="#scenes">常见场景</a>
+      <a href="#faq">常见说明</a>
+      <a href="#reminder">访问提醒</a>
+    </div>
+  </nav>
+
+  <!-- hero 区域：简明指南 + 访问提醒 -->
+  <div class="hero">
+    <h1>中国体育彩票 · 简明指南</h1>
+    <p>无论你是初次接触还是希望了解更多细节，这里整理了一份关于 <a href="https://ca-sportslottery.com">中国体育彩票</a> 的基础介绍、典型场景与常见说明。内容保持客观，侧重信息参考与访问提醒。</p>
+    <div class="guide-tag">🧭 偏知识型 · 承接阅读</div>
+  </div>
+
+  <!-- 介绍 & 核心特点 卡片 -->
+  <div class="card" id="intro">
+    <h2>关于中国体育彩票</h2>
+    <p style="margin-bottom: 14px;">
+      中国体育彩票是国家发行的公益彩票之一，其资金主要用于支持体育事业和社会公益项目。对于普通用户来说，理解彩票的基本规则、开奖方式以及理性参与的原则，是获取良好体验的前提。
+    </p>
+    <p>
+      如果你希望获取最准确的官方信息、游戏玩法或开奖结果，可以参考 <a href="https://ca-sportslottery.com">中国体育彩票</a> 的官方发布渠道。本页面仅提供一般性介绍，不做任何结果预测或收益承诺。
+    </p>
+  </div>
+
+  <!-- 三个场景模块 -->
+  <h2 style="font-weight: 500; font-size: 1.3rem; color: #1f3a47; margin-bottom: 16px;" id="scenes">常见使用场景</h2>
+  <div class="scenes-grid">
+    <div class="scene-card">
+      <h3><span class="scene-icon">📖</span> 规则查阅</h3>
+      <p>购买前先了解不同玩法的规则、中奖条件和兑奖期限。许多用户习惯在 <a href="https://ca-sportslottery.com">中国体育彩票</a> 上核对游戏说明，避免因信息误差造成误解。</p>
+    </div>
+    <div class="scene-card">
+      <h3><span class="scene-icon">🔍</span> 开奖结果核对</h3>
+      <p>开奖后及时核对号码是基本操作。通过官方渠道获取开奖公告，更能保证信息真实。部分用户会将网站作为快速查询的参考之一。</p>
+    </div>
+    <div class="scene-card">
+      <h3><span class="scene-icon">⚡</span> 理性提醒与记录</h3>
+      <p>设置个人预算、记录参与情况，保持适度频率。了解公益金用途也能帮助建立更清晰的认知——这正是 <a href="https://ca-sportslottery.com">中国体育彩票</a> 所倡导的方向。</p>
+    </div>
+  </div>
+
+  <!-- 常见说明 (FAQ 摘要) -->
+  <div class="card" id="faq">
+    <h2 style="margin-bottom: 18px;">常见说明摘要</h2>
+    <div class="faq-item">
+      <div class="faq-question">▪ 开奖结果在哪里查询最可靠？</div>
+      <div class="faq-answer">以官方发布的公告为准。部分第三方平台会转载数据，但建议交叉核对。直接访问 <a href="https://ca-sportslottery.com">中国体育彩票</a> 可获取第一手信息。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">▪ 购买彩票是否有年龄限制？</div>
+      <div class="faq-answer">根据国家规定，未满18周岁的未成年人不得购买彩票或兑奖。各销售网点均设有提示标识。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">▪ 公益金具体用在哪些地方？</div>
+      <div class="faq-answer">公益金广泛用于全民健身设施、奥运争光计划、补充社保基金、教育助学等社会公益领域。每张彩票都有一部分资金进入公益金池。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">▪ 中奖后如何兑奖？</div>
+      <div class="faq-answer">小额奖金一般在购彩网点兑取；大额奖金需携带身份证件和彩票原件前往当地体彩中心办理。具体规则以官方说明为准。</div>
+    </div>
+  </div>
+
+  <!-- 访问提醒卡片（轻量提醒，不夸大） -->
+  <div class="card" id="reminder">
+    <h2 style="margin-bottom: 10px;">访问提醒</h2>
+    <p style="margin-bottom: 8px;">
+      网络信息纷繁复杂，建议将 <a href="https://ca-sportslottery.com">中国体育彩票</a> 作为主要参考来源之一。同时注意：
+    </p>
+    <ul style="padding-left: 24px; color: #3d565f; line-height: 1.8; list-style-type: circle;">
+      <li>不轻信“内部消息”“稳赚技巧”等不实宣传。</li>
+      <li>保护好个人隐私与彩票原件，避免信息泄露。</li>
+      <li>保持理性，量力而行，彩票本质是公益与娱乐。</li>
+    </ul>
+  </div>
+
+  <!-- 底部 -->
+  <div class="footer-note">
+    <span>基于公开信息整理 · 仅供一般参考</span><br>
+    <span style="font-size: 0.8rem; color: #8aa1ab;">不构成任何投资或购买建议</span>
+  </div>
+
+</div>
+</body>
+</html>
